@@ -1,0 +1,13 @@
+:root {
+    --primary: blue;
+    --secondary: gray;
+
+}
+
+body {
+    color:var(--primary);
+    background-color:var(--secondary);
+    margin:0; 
+    padding:0; 
+    line-height: 1.5;
+}
