@@ -1,0 +1,36 @@
+:root {
+    --primary: blue;
+    --secondary: gray;
+
+}
+
+body {
+    color:var(--primary);
+    background-color:var(--secondary);
+    margin:0; 
+    padding:0; 
+    line-height: 1.5;
+    font-family: 'Roboto', sans-serif;
+}
+header {
+    display:flex; 
+    justify-content: space-between;
+    flex-wrap:wrap;
+
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-evenly; */
+    flex-wrap: wrap;
+}
+figure {
+    background-color: azure;
+    margin: 0;
+    padding: 0;
+    height: 20vh; 
+    display: flex;
+    text-align: right;
+    align-items: baseline; 
+}
